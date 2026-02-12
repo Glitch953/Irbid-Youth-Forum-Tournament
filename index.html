@@ -1,0 +1,1415 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بطولة ملتقى شباب إربد الرمضانية | Irbid Youth Forum Ramadan Tournament</title>
+    <meta name="description"
+        content="بطولة ملتقى شباب إربد الرمضانية لكرة القدم - نظام البطولة، الفرق المشاركة، المجموعات، الهدافون، والألبوم">
+    <link rel="icon" href="assets/logo.png" type="image/png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <img src="assets/logo.png" alt="شعار ملتقى شباب إربد" class="nav-logo-img">
+                <span data-ar="ملتقى شباب إربد" data-en="Irbid Youth Forum">ملتقى شباب إربد</span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="#hero" class="nav-link active" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
+                <a href="#tournament" class="nav-link" data-ar="نظام البطولة" data-en="Tournament">نظام البطولة</a>
+                <a href="#groups" class="nav-link" data-ar="المجموعات" data-en="Groups">المجموعات</a>
+                <a href="#matches" class="nav-link" data-ar="المباريات" data-en="Matches">المباريات</a>
+                <a href="#scorers" class="nav-link" data-ar="الهدافون" data-en="Scorers">الهدافون</a>
+                <a href="#album" class="nav-link" data-ar="الألبوم" data-en="Album">الألبوم</a>
+                <a href="#committee" class="nav-link" data-ar="اللجنة" data-en="Committee">اللجنة</a>
+            </div>
+            <div class="nav-controls">
+                <button class="control-btn theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon" id="themeIcon"></i>
+                </button>
+                <button class="control-btn lang-toggle" id="langToggle" aria-label="Toggle language">
+                    <span id="langText">EN</span>
+                </button>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
+            <div class="floating-shape shape-4"></div>
+            <div class="floating-shape shape-5"></div>
+            <div class="floating-shape shape-6"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-logo-wrapper">
+                <img src="assets/logo.png" alt="شعار ملتقى شباب إربد" class="hero-logo">
+                <div class="logo-glow"></div>
+            </div>
+            <h1 class="hero-title" data-ar="بطولة ملتقى شباب إربد" data-en="Irbid Youth Forum Tournament">بطولة ملتقى
+                شباب إربد</h1>
+            <p class="hero-subtitle" data-ar="البطولة الرمضانية لكرة القدم" data-en="Ramadan Football Championship">
+                البطولة الرمضانية لكرة القدم</p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">16</span>
+                    <span class="stat-label" data-ar="فريق" data-en="Teams">فريق</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number">4</span>
+                    <span class="stat-label" data-ar="مجموعات" data-en="Groups">مجموعات</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number">32</span>
+                    <span class="stat-label" data-ar="مباراة" data-en="Matches">مباراة</span>
+                </div>
+            </div>
+            <a href="#tournament" class="hero-cta">
+                <span data-ar="اكتشف البطولة" data-en="Explore Tournament">اكتشف البطولة</span>
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- ===== TOURNAMENT SYSTEM ===== -->
+    <section class="section tournament" id="tournament">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge" data-ar="نظام البطولة" data-en="Tournament System">نظام البطولة</span>
+                <h2 class="section-title" data-ar="كيف تُلعب البطولة؟" data-en="How is the tournament played?">كيف تُلعب
+                    البطولة؟</h2>
+                <p class="section-desc" data-ar="البطولة تتكون من مرحلتين: دور المجموعات ومرحلة خروج المغلوب"
+                    data-en="The tournament consists of two phases: Group Stage and Knockout Stage">البطولة تتكون من
+                    مرحلتين: دور المجموعات ومرحلة خروج المغلوب</p>
+            </div>
+
+            <div class="tournament-phases">
+                <div class="phase-card" data-aos="fade-up">
+                    <div class="phase-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <div class="phase-number">1</div>
+                    <h3 data-ar="دور المجموعات" data-en="Group Stage">دور المجموعات</h3>
+                    <p data-ar="16 فريق مقسمين على 4 مجموعات. كل مجموعة من 4 فرق تلعب فيما بينها دورة كاملة."
+                        data-en="16 teams divided into 4 groups. Each group of 4 teams plays a full round-robin.">16
+                        فريق مقسمين على 4 مجموعات. كل مجموعة من 4 فرق تلعب فيما بينها دورة كاملة.</p>
+                </div>
+                <div class="phase-arrow"><i class="fas fa-arrow-left"></i></div>
+                <div class="phase-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="phase-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="phase-number">2</div>
+                    <h3 data-ar="ربع النهائي" data-en="Quarter Finals">ربع النهائي</h3>
+                    <p data-ar="يتأهل أول وثاني كل مجموعة (8 فرق) إلى ربع النهائي بنظام خروج المغلوب."
+                        data-en="Top 2 from each group (8 teams) advance to quarter-finals in a knockout format.">يتأهل
+                        أول وثاني كل مجموعة (8 فرق) إلى ربع النهائي بنظام خروج المغلوب.</p>
+                </div>
+                <div class="phase-arrow"><i class="fas fa-arrow-left"></i></div>
+                <div class="phase-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="phase-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <div class="phase-number">3</div>
+                    <h3 data-ar="نصف النهائي" data-en="Semi Finals">نصف النهائي</h3>
+                    <p data-ar="4 فرق تتنافس في نصف النهائي. الفائزون يتأهلون للنهائي."
+                        data-en="4 teams compete in semi-finals. Winners advance to the final.">4 فرق تتنافس في نصف
+                        النهائي. الفائزون يتأهلون للنهائي.</p>
+                </div>
+                <div class="phase-arrow"><i class="fas fa-arrow-left"></i></div>
+                <div class="phase-card highlight-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="phase-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <div class="phase-number">4</div>
+                    <h3 data-ar="النهائي الكبير" data-en="The Grand Final">النهائي الكبير</h3>
+                    <p data-ar="المباراة النهائية لتحديد البطل! مع حفل توزيع الجوائز والكؤوس."
+                        data-en="The final match to determine the champion! With awards and trophy ceremony.">المباراة
+                        النهائية لتحديد البطل! مع حفل توزيع الجوائز والكؤوس.</p>
+                </div>
+            </div>
+
+            <div class="rules-grid">
+                <div class="rule-card">
+                    <i class="fas fa-clock"></i>
+                    <h4 data-ar="مدة المباراة" data-en="Match Duration">مدة المباراة</h4>
+                    <p data-ar="شوطين × 25 دقيقة مع استراحة 10 دقائق" data-en="2 × 25 minutes with 10 min half-time">
+                        شوطين × 25 دقيقة مع استراحة 10 دقائق</p>
+                </div>
+                <div class="rule-card">
+                    <i class="fas fa-users"></i>
+                    <h4 data-ar="عدد اللاعبين" data-en="Players">عدد اللاعبين</h4>
+                    <p data-ar="7 لاعبين أساسيين + 5 احتياط" data-en="7 starters + 5 substitutes">7 لاعبين أساسيين + 5
+                        احتياط</p>
+                </div>
+                <div class="rule-card">
+                    <i class="fas fa-exchange-alt"></i>
+                    <h4 data-ar="التبديلات" data-en="Substitutions">التبديلات</h4>
+                    <p data-ar="عدد التبديلات مفتوح طوال المباراة"
+                        data-en="Unlimited substitutions throughout the match">عدد التبديلات مفتوح طوال المباراة</p>
+                </div>
+                <div class="rule-card">
+                    <i class="fas fa-futbol"></i>
+                    <h4 data-ar="ركلات الترجيح" data-en="Penalty Kicks">ركلات الترجيح</h4>
+                    <p data-ar="في حال التعادل بمرحلة خروج المغلوب" data-en="In case of a draw in knockout stage">في حال
+                        التعادل بمرحلة خروج المغلوب</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== GROUPS SECTION ===== -->
+    <section class="section groups" id="groups">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge" data-ar="المجموعات" data-en="Groups">المجموعات</span>
+                <h2 class="section-title" data-ar="الفرق المشاركة" data-en="Participating Teams">الفرق المشاركة</h2>
+                <p class="section-desc" data-ar="16 فريقاً تتنافس في 4 مجموعات للوصول إلى الكأس"
+                    data-en="16 teams compete in 4 groups to reach the cup">16 فريقاً تتنافس في 4 مجموعات للوصول إلى
+                    الكأس</p>
+            </div>
+
+            <div class="groups-grid">
+                <!-- Group A -->
+                <div class="group-card" data-aos="fade-up">
+                    <div class="group-header group-a">
+                        <span class="group-letter">A</span>
+                        <span data-ar="المجموعة الأولى" data-en="Group A">المجموعة الأولى</span>
+                    </div>
+                    <div class="group-standings">
+                        <table class="standings-table">
+                            <thead>
+                                <tr>
+                                    <th data-ar="الفريق" data-en="Team">الفريق</th>
+                                    <th data-ar="لعب" data-en="P">لعب</th>
+                                    <th data-ar="ف" data-en="W">ف</th>
+                                    <th data-ar="ت" data-en="D">ت</th>
+                                    <th data-ar="خ" data-en="L">خ</th>
+                                    <th data-ar="له" data-en="GF">له</th>
+                                    <th data-ar="عليه" data-en="GA">عليه</th>
+                                    <th data-ar="±" data-en="±">±</th>
+                                    <th data-ar="نقاط" data-en="Pts">نقاط</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="qualified">
+                                    <td class="team-cell">
+                                        <div class="team-color" style="background:#E8732A"></div><span data-ar="الأهلي"
+                                            data-en="Al-Ahli">الأهلي</span>
+                                    </td>
+                                    <td>3</td>
+                                    <td>3</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>8</td>
+                                    <td>2</td>
+                                    <td class="positive">+6</td>
+                                    <td class="points-cell">9</td>
+                                </tr>
+                                <tr class="qualified">
+                                    <td class="team-cell">
+                                        <div class="team-color" style="background:#5FAD41"></div><span data-ar="الشباب"
+                                            data-en="Al-Shabab">الشباب</span>
+                                    </td>
+                                    <td>3</td>
+                                    <td>2</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                    <td>6</td>
+                                    <td>4</td>
+                                    <td class="positive">+2</td>
+                                    <td class="points-cell">6</td>
+                                </tr>
+                                <tr>
+                                    <td class="team-cell">
+                                        <div class="team-color" style="background:#FFD700"></div><span data-ar="النصر"
+                                            data-en="Al-Nasr">النصر</span>
+                                    </td>
+                                    <td>3</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>5</td>
+                                    <td class="negative">-2</td>
+                                    <td class="points-cell">3</td>
+                                </tr>
+                                <tr>
+                                    <td class="team-cell">
+                                        <div class="team-color" style="background:#D4247B"></div><span data-ar="الوحدة"
+                                            data-en="Al-Wehda">الوحدة</span>
+                                    </td>
+                                    <td>3</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>3</td>
+                                    <td>2</td>
+                                    <td>8</td>
+                                    <td class="negative">-6</td>
+                                    <td class="points-cell">0</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Group B -->
+                <div class="group-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="group-header group-b">
+                        <span class="group-letter">B</span>
+                        <span data-ar="المجموعة الثانية" data-en="Group B">المجموعة الثانية</span>
+                    </div>
+                    <div class="group-standings">
+                        <table class="standings-table">
+                            <thead>
+                                <tr>
+                                    <th data-ar="الفريق" data-en="Team">الفريق</th>
+                                    <th data-ar="لعب" data-en="P">لعب</th>
+                                    <th data-ar="ف" data-en="W">ف</th>
+                                    <th data-ar="ت" data-en="D">ت</th>
+                                    <th data-ar="خ" data-en="L">خ</th>
+                                    <th data-ar="له" data-en="GF">له</th>
+                                    <th data-ar="عليه" data-en="GA">عليه</th>
+                                    <th data-ar="±" data-en="±">±</th>
+                                    <th data-ar="نقاط" data-en="Pts">نقاط</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="qualified">
+                                    <td class="team-cell">
+                                        <div class="team-color" style="background:#1B2A6B"></div><span data-ar="الحسين"
+                                            data-en="Al-Hussein">الحسين</span>
+                                    </td>
+                                    <td>3</td>
+                                    <td>2</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>7</td>
+                                    <td>3</td>
+                                    <td class="positive">+4</td>
+                                    <td class="points-cell">7</td>
+                                </tr>
+                                <tr class="qualified">
+                                    <td class="team-cell">
+                                        <div class="team-color" style="background:#7CC5E8"></div><span data-ar="الاتحاد"
+                                            data-en="Al-Ittihad">الاتحاد</span>
+                                    </td>
+                                    <td>3</td>
+                                    <td>2</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                    <td>5</td>
+                                    <td>3</td>
+                                    <td class="positive">+2</td>
+                                    <td class="points-cell">6</td>
+                                </tr>
+                                <tr>
+                                    <td class="team-cell">
+                                        <div class="team-color" style="background:#E8732A"></div><span data-ar="الصقور"
+                                            data-en="Al-Suqour">الصقور</span>
+                                    </td>
+                                    <td>3</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>4</td>
+                                    <td>4</td>
+                                    <td>0</td>
+                                    <td class="points-cell">4</td>
+                                </tr>
+                                <tr>
+                                    <td class="team-cell">
+                                        <div class="team-color" style="background:#5FAD41"></div><span data-ar="النجوم"
+                                            data-en="Al-Nujoom">النجوم</span>
+                                    </td>
+                                    <td>3</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>3</td>
+                                    <td>2</td>
+                                    <td>8</td>
+                                    <td class="negative">-6</td>
+                                    <td class="points-cell">0</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Group C -->
+                <div class="group-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="group-header group-c">
+                        <span class="group-letter">C</span>
+                        <span data-ar="المجموعة الثالثة" data-en="Group C">المجموعة الثالثة</span>
+                    </div>
+                    <div class="group-standings">
+                        <table class="standings-table">
+                            <thead>
+                                <tr>
+                                    <th data-ar="الفريق" data-en="Team">الفريق</th>
+                                    <th data-ar="لعب" data-en="P">لعب</th>
+                                    <th data-ar="ف" data-en="W">ف</th>
+                                    <th data-ar="ت" data-en="D">ت</th>
+                                    <th data-ar="خ" data-en="L">خ</th>
+                                    <th data-ar="له" data-en="GF">له</th>
+                                    <th data-ar="عليه" data-en="GA">عليه</th>
+                                    <th data-ar="±" data-en="±">±</th>
+                                    <th data-ar="نقاط" data-en="Pts">نقاط</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="qualified">
+                                    <td class="team-cell">
+                                        <div class="team-color" style="background:#FFD700"></div><span data-ar="الأوائل"
+                                            data-en="Al-Awaeil">الأوائل</span>
+                                    </td>
+                                    <td>3</td>
+                                    <td>2</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>6</td>
+                                    <td>2</td>
+                                    <td class="positive">+4</td>
+                                    <td class="points-cell">7</td>
+                                </tr>
+                                <tr class="qualified">
+                                    <td class="team-cell">
+                                        <div class="team-color" style="background:#D4247B"></div><span data-ar="البرق"
+                                            data-en="Al-Barq">البرق</span>
+                                    </td>
+                                    <td>3</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>0</td>
+                                    <td>4</td>
+                                    <td>3</td>
+                                    <td class="positive">+1</td>
+                                    <td class="points-cell">5</td>
+                                </tr>
+                                <tr>
+                                    <td class="team-cell">
+                                        <div class="team-color" style="background:#1B2A6B"></div><span data-ar="الفجر"
+                                            data-en="Al-Fajr">الفجر</span>
+                                    </td>
+                                    <td>3</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>5</td>
+                                    <td class="negative">-2</td>
+                                    <td class="points-cell">3</td>
+                                </tr>
+                                <tr>
+                                    <td class="team-cell">
+                                        <div class="team-color" style="background:#7CC5E8"></div><span data-ar="الأسود"
+                                            data-en="Al-Usoud">الأسود</span>
+                                    </td>
+                                    <td>3</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>5</td>
+                                    <td class="negative">-3</td>
+                                    <td class="points-cell">1</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Group D -->
+                <div class="group-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="group-header group-d">
+                        <span class="group-letter">D</span>
+                        <span data-ar="المجموعة الرابعة" data-en="Group D">المجموعة الرابعة</span>
+                    </div>
+                    <div class="group-standings">
+                        <table class="standings-table">
+                            <thead>
+                                <tr>
+                                    <th data-ar="الفريق" data-en="Team">الفريق</th>
+                                    <th data-ar="لعب" data-en="P">لعب</th>
+                                    <th data-ar="ف" data-en="W">ف</th>
+                                    <th data-ar="ت" data-en="D">ت</th>
+                                    <th data-ar="خ" data-en="L">خ</th>
+                                    <th data-ar="له" data-en="GF">له</th>
+                                    <th data-ar="عليه" data-en="GA">عليه</th>
+                                    <th data-ar="±" data-en="±">±</th>
+                                    <th data-ar="نقاط" data-en="Pts">نقاط</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="qualified">
+                                    <td class="team-cell">
+                                        <div class="team-color" style="background:#E8732A"></div><span data-ar="المجد"
+                                            data-en="Al-Majd">المجد</span>
+                                    </td>
+                                    <td>3</td>
+                                    <td>2</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>5</td>
+                                    <td>1</td>
+                                    <td class="positive">+4</td>
+                                    <td class="points-cell">7</td>
+                                </tr>
+                                <tr class="qualified">
+                                    <td class="team-cell">
+                                        <div class="team-color" style="background:#5FAD41"></div><span data-ar="الأنصار"
+                                            data-en="Al-Ansar">الأنصار</span>
+                                    </td>
+                                    <td>3</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>0</td>
+                                    <td>4</td>
+                                    <td>3</td>
+                                    <td class="positive">+1</td>
+                                    <td class="points-cell">5</td>
+                                </tr>
+                                <tr>
+                                    <td class="team-cell">
+                                        <div class="team-color" style="background:#FFD700"></div><span data-ar="الأبطال"
+                                            data-en="Al-Abtal">الأبطال</span>
+                                    </td>
+                                    <td>3</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>3</td>
+                                    <td>3</td>
+                                    <td>0</td>
+                                    <td class="points-cell">4</td>
+                                </tr>
+                                <tr>
+                                    <td class="team-cell">
+                                        <div class="team-color" style="background:#D4247B"></div><span
+                                            data-ar="القادسية" data-en="Al-Qadisiya">القادسية</span>
+                                    </td>
+                                    <td>3</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>3</td>
+                                    <td>1</td>
+                                    <td>6</td>
+                                    <td class="negative">-5</td>
+                                    <td class="points-cell">0</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== MATCHES SECTION ===== -->
+    <section class="section matches" id="matches">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge" data-ar="المباريات" data-en="Matches">المباريات</span>
+                <h2 class="section-title" data-ar="جدول المباريات" data-en="Match Schedule">جدول المباريات</h2>
+                <p class="section-desc" data-ar="نتائج المباريات والمواعيد القادمة"
+                    data-en="Match results and upcoming fixtures">نتائج المباريات والمواعيد القادمة</p>
+            </div>
+
+            <!-- Match Day Tabs -->
+            <div class="match-tabs">
+                <button class="match-tab active" data-day="1" data-ar="الجولة 1" data-en="Day 1">الجولة 1</button>
+                <button class="match-tab" data-day="2" data-ar="الجولة 2" data-en="Day 2">الجولة 2</button>
+                <button class="match-tab" data-day="3" data-ar="الجولة 3" data-en="Day 3">الجولة 3</button>
+                <button class="match-tab" data-day="knockout" data-ar="خروج المغلوب" data-en="Knockout">خروج
+                    المغلوب</button>
+            </div>
+
+            <!-- Day 1 Matches -->
+            <div class="match-day active" id="matchDay1">
+                <div class="matches-grid">
+                    <div class="match-card upcoming" data-aos="fade-up">
+                        <div class="match-group-tag group-a">A</div>
+                        <div class="match-date">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span data-ar="1 رمضان" data-en="1 Ramadan">1 رمضان</span>
+                            <span class="match-time" style="margin-inline-start: 10px;">
+                                <i class="far fa-clock"></i> 10:00 PM
+                            </span>
+                        </div>
+                        <div class="match-teams">
+                            <div class="match-team">
+                                <div class="team-color" style="background:#E8732A"></div>
+                                <span data-ar="الأهلي" data-en="Al-Ahli">الأهلي</span>
+                            </div>
+                            <div class="match-score upcoming-score">
+                                <span data-ar="قريباً" data-en="Soon">قريباً</span>
+                            </div>
+                            <div class="match-team">
+                                <span data-ar="النصر" data-en="Al-Nasr">النصر</span>
+                                <div class="team-color" style="background:#FFD700"></div>
+                            </div>
+                        </div>
+                        <div class="match-status upcoming-status" data-ar="لم تبدأ" data-en="Upcoming">لم تبدأ</div>
+                    </div>
+                    <div class="match-card upcoming" data-aos="fade-up" data-aos-delay="50">
+                        <div class="match-group-tag group-a">A</div>
+                        <div class="match-date">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span data-ar="1 رمضان" data-en="1 Ramadan">1 رمضان</span>
+                            <span class="match-time" style="margin-inline-start: 10px;">
+                                <i class="far fa-clock"></i> 11:30 PM
+                            </span>
+                        </div>
+                        <div class="match-teams">
+                            <div class="match-team">
+                                <div class="team-color" style="background:#5FAD41"></div>
+                                <span data-ar="الشباب" data-en="Al-Shabab">الشباب</span>
+                            </div>
+                            <div class="match-score upcoming-score">
+                                <span data-ar="قريباً" data-en="Soon">قريباً</span>
+                            </div>
+                            <div class="match-team">
+                                <span data-ar="الوحدة" data-en="Al-Wehda">الوحدة</span>
+                                <div class="team-color" style="background:#D4247B"></div>
+                            </div>
+                        </div>
+                        <div class="match-status upcoming-status" data-ar="لم تبدأ" data-en="Upcoming">لم تبدأ</div>
+                    </div>
+                    <div class="match-card upcoming" data-aos="fade-up" data-aos-delay="100">
+                        <div class="match-group-tag group-b">B</div>
+                        <div class="match-date">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span data-ar="1 رمضان" data-en="1 Ramadan">1 رمضان</span>
+                            <span class="match-time" style="margin-inline-start: 10px;">
+                                <i class="far fa-clock"></i> 10:00 PM
+                            </span>
+                        </div>
+                        <div class="match-teams">
+                            <div class="match-team">
+                                <div class="team-color" style="background:#1B2A6B"></div>
+                                <span data-ar="الحسين" data-en="Al-Hussein">الحسين</span>
+                            </div>
+                            <div class="match-score upcoming-score">
+                                <span data-ar="قريباً" data-en="Soon">قريباً</span>
+                            </div>
+                            <div class="match-team">
+                                <span data-ar="الصقور" data-en="Al-Suqour">الصقور</span>
+                                <div class="team-color" style="background:#E8732A"></div>
+                            </div>
+                        </div>
+                        <div class="match-status upcoming-status" data-ar="لم تبدأ" data-en="Upcoming">لم تبدأ</div>
+                    </div>
+                    <div class="match-card upcoming" data-aos="fade-up" data-aos-delay="150">
+                        <div class="match-group-tag group-b">B</div>
+                        <div class="match-date">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span data-ar="1 رمضان" data-en="1 Ramadan">1 رمضان</span>
+                            <span class="match-time" style="margin-inline-start: 10px;">
+                                <i class="far fa-clock"></i> 11:30 PM
+                            </span>
+                        </div>
+                        <div class="match-teams">
+                            <div class="match-team">
+                                <div class="team-color" style="background:#7CC5E8"></div>
+                                <span data-ar="الاتحاد" data-en="Al-Ittihad">الاتحاد</span>
+                            </div>
+                            <div class="match-score upcoming-score">
+                                <span data-ar="قريباً" data-en="Soon">قريباً</span>
+                            </div>
+                            <div class="match-team">
+                                <span data-ar="النجوم" data-en="Al-Nujoom">النجوم</span>
+                                <div class="team-color" style="background:#5FAD41"></div>
+                            </div>
+                        </div>
+                        <div class="match-status upcoming-status" data-ar="لم تبدأ" data-en="Upcoming">لم تبدأ</div>
+                    </div>
+                    <div class="match-card upcoming" data-aos="fade-up" data-aos-delay="200">
+                        <div class="match-group-tag group-c">C</div>
+                        <div class="match-date">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span data-ar="2 رمضان" data-en="2 Ramadan">2 رمضان</span>
+                            <span class="match-time" style="margin-inline-start: 10px;">
+                                <i class="far fa-clock"></i> 10:00 PM
+                            </span>
+                        </div>
+                        <div class="match-teams">
+                            <div class="match-team">
+                                <div class="team-color" style="background:#FFD700"></div>
+                                <span data-ar="الأوائل" data-en="Al-Awaeil">الأوائل</span>
+                            </div>
+                            <div class="match-score upcoming-score">
+                                <span data-ar="قريباً" data-en="Soon">قريباً</span>
+                            </div>
+                            <div class="match-team">
+                                <span data-ar="البرق" data-en="Al-Barq">البرق</span>
+                                <div class="team-color" style="background:#D4247B"></div>
+                            </div>
+                        </div>
+                        <div class="match-status upcoming-status" data-ar="لم تبدأ" data-en="Upcoming">لم تبدأ</div>
+                    </div>
+                    <div class="match-card upcoming" data-aos="fade-up" data-aos-delay="250">
+                        <div class="match-group-tag group-c">C</div>
+                        <div class="match-date">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span data-ar="2 رمضان" data-en="2 Ramadan">2 رمضان</span>
+                            <span class="match-time" style="margin-inline-start: 10px;">
+                                <i class="far fa-clock"></i> 11:30 PM
+                            </span>
+                        </div>
+                        <div class="match-teams">
+                            <div class="match-team">
+                                <div class="team-color" style="background:#1B2A6B"></div>
+                                <span data-ar="الفجر" data-en="Al-Fajr">الفجر</span>
+                            </div>
+                            <div class="match-score upcoming-score">
+                                <span data-ar="قريباً" data-en="Soon">قريباً</span>
+                            </div>
+                            <div class="match-team">
+                                <span data-ar="الأسود" data-en="Al-Usoud">الأسود</span>
+                                <div class="team-color" style="background:#7CC5E8"></div>
+                            </div>
+                        </div>
+                        <div class="match-status upcoming-status" data-ar="لم تبدأ" data-en="Upcoming">لم تبدأ</div>
+                    </div>
+                    <div class="match-card upcoming" data-aos="fade-up" data-aos-delay="300">
+                        <div class="match-group-tag group-d">D</div>
+                        <div class="match-date">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span data-ar="2 رمضان" data-en="2 Ramadan">2 رمضان</span>
+                            <span class="match-time" style="margin-inline-start: 10px;">
+                                <i class="far fa-clock"></i> 10:00 PM
+                            </span>
+                        </div>
+                        <div class="match-teams">
+                            <div class="match-team">
+                                <div class="team-color" style="background:#E8732A"></div>
+                                <span data-ar="المجد" data-en="Al-Majd">المجد</span>
+                            </div>
+                            <div class="match-score upcoming-score">
+                                <span data-ar="قريباً" data-en="Soon">قريباً</span>
+                            </div>
+                            <div class="match-team">
+                                <span data-ar="القادسية" data-en="Al-Qadisiya">القادسية</span>
+                                <div class="team-color" style="background:#D4247B"></div>
+                            </div>
+                        </div>
+                        <div class="match-status upcoming-status" data-ar="لم تبدأ" data-en="Upcoming">لم تبدأ</div>
+                    </div>
+                    <div class="match-card upcoming" data-aos="fade-up" data-aos-delay="350">
+                        <div class="match-group-tag group-d">D</div>
+                        <div class="match-date">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span data-ar="2 رمضان" data-en="2 Ramadan">2 رمضان</span>
+                            <span class="match-time" style="margin-inline-start: 10px;">
+                                <i class="far fa-clock"></i> 11:30 PM
+                            </span>
+                        </div>
+                        <div class="match-teams">
+                            <div class="match-team">
+                                <div class="team-color" style="background:#5FAD41"></div>
+                                <span data-ar="الأنصار" data-en="Al-Ansar">الأنصار</span>
+                            </div>
+                            <div class="match-score upcoming-score">
+                                <span data-ar="قريباً" data-en="Soon">قريباً</span>
+                            </div>
+                            <div class="match-team">
+                                <span data-ar="الأبطال" data-en="Al-Abtal">الأبطال</span>
+                                <div class="team-color" style="background:#FFD700"></div>
+                            </div>
+                        </div>
+                        <div class="match-status upcoming-status" data-ar="لم تبدأ" data-en="Upcoming">لم تبدأ</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Day 2 Matches -->
+            <div class="match-day" id="matchDay2">
+                <div class="matches-grid">
+                    <div class="match-card upcoming">
+                        <div class="match-group-tag group-a">A</div>
+                        <div class="match-date"><i class="fas fa-calendar-alt"></i> <span data-ar="4 رمضان"
+                                data-en="4 Ramadan">4 رمضان</span></div>
+                        <div class="match-teams">
+                            <div class="match-team">
+                                <div class="team-color" style="background:#E8732A"></div>
+                                <span data-ar="الأهلي" data-en="Al-Ahli">الأهلي</span>
+                            </div>
+                            <div class="match-score upcoming-score">
+                                <span data-ar="قريباً" data-en="Soon">قريباً</span>
+                            </div>
+                            <div class="match-team">
+                                <span data-ar="الشباب" data-en="Al-Shabab">الشباب</span>
+                                <div class="team-color" style="background:#5FAD41"></div>
+                            </div>
+                        </div>
+                        <div class="match-status upcoming-status" data-ar="لم تبدأ" data-en="Upcoming">لم تبدأ</div>
+                    </div>
+                    <div class="match-card upcoming">
+                        <div class="match-group-tag group-a">A</div>
+                        <div class="match-date"><i class="fas fa-calendar-alt"></i> <span data-ar="4 رمضان"
+                                data-en="4 Ramadan">4 رمضان</span></div>
+                        <div class="match-teams">
+                            <div class="match-team">
+                                <div class="team-color" style="background:#FFD700"></div>
+                                <span data-ar="النصر" data-en="Al-Nasr">النصر</span>
+                            </div>
+                            <div class="match-score upcoming-score">
+                                <span data-ar="قريباً" data-en="Soon">قريباً</span>
+                            </div>
+                            <div class="match-team">
+                                <span data-ar="الوحدة" data-en="Al-Wehda">الوحدة</span>
+                                <div class="team-color" style="background:#D4247B"></div>
+                            </div>
+                        </div>
+                        <div class="match-status upcoming-status" data-ar="لم تبدأ" data-en="Upcoming">لم تبدأ</div>
+                    </div>
+                    <div class="match-card upcoming">
+                        <div class="match-group-tag group-b">B</div>
+                        <div class="match-date"><i class="fas fa-calendar-alt"></i> <span data-ar="5 رمضان"
+                                data-en="5 Ramadan">5 رمضان</span></div>
+                        <div class="match-teams">
+                            <div class="match-team">
+                                <div class="team-color" style="background:#1B2A6B"></div>
+                                <span data-ar="الحسين" data-en="Al-Hussein">الحسين</span>
+                            </div>
+                            <div class="match-score upcoming-score">
+                                <span data-ar="قريباً" data-en="Soon">قريباً</span>
+                            </div>
+                            <div class="match-team">
+                                <span data-ar="النجوم" data-en="Al-Nujoom">النجوم</span>
+                                <div class="team-color" style="background:#5FAD41"></div>
+                            </div>
+                        </div>
+                        <div class="match-status upcoming-status" data-ar="لم تبدأ" data-en="Upcoming">لم تبدأ</div>
+                    </div>
+                    <div class="match-card upcoming">
+                        <div class="match-group-tag group-b">B</div>
+                        <div class="match-date"><i class="fas fa-calendar-alt"></i> <span data-ar="5 رمضان"
+                                data-en="5 Ramadan">5 رمضان</span></div>
+                        <div class="match-teams">
+                            <div class="match-team">
+                                <div class="team-color" style="background:#E8732A"></div>
+                                <span data-ar="الصقور" data-en="Al-Suqour">الصقور</span>
+                            </div>
+                            <div class="match-score upcoming-score">
+                                <span data-ar="قريباً" data-en="Soon">قريباً</span>
+                            </div>
+                            <div class="match-team">
+                                <span data-ar="الاتحاد" data-en="Al-Ittihad">الاتحاد</span>
+                                <div class="team-color" style="background:#7CC5E8"></div>
+                            </div>
+                        </div>
+                        <div class="match-status upcoming-status" data-ar="لم تبدأ" data-en="Upcoming">لم تبدأ</div>
+                    </div>
+                    <div class="match-card upcoming">
+                        <div class="match-group-tag group-c">C</div>
+                        <div class="match-date"><i class="fas fa-calendar-alt"></i> <span data-ar="5 رمضان"
+                                data-en="5 Ramadan">5 رمضان</span></div>
+                        <div class="match-teams">
+                            <div class="match-team">
+                                <div class="team-color" style="background:#FFD700"></div>
+                                <span data-ar="الأوائل" data-en="Al-Awaeil">الأوائل</span>
+                            </div>
+                            <div class="match-score upcoming-score">
+                                <span data-ar="قريباً" data-en="Soon">قريباً</span>
+                            </div>
+                            <div class="match-team">
+                                <span data-ar="الأسود" data-en="Al-Usoud">الأسود</span>
+                                <div class="team-color" style="background:#7CC5E8"></div>
+                            </div>
+                        </div>
+                        <div class="match-status upcoming-status" data-ar="لم تبدأ" data-en="Upcoming">لم تبدأ</div>
+                    </div>
+                    <div class="match-card upcoming">
+                        <div class="match-group-tag group-d">D</div>
+                        <div class="match-date"><i class="fas fa-calendar-alt"></i> <span data-ar="6 رمضان"
+                                data-en="6 Ramadan">6 رمضان</span></div>
+                        <div class="match-teams">
+                            <div class="match-team">
+                                <div class="team-color" style="background:#E8732A"></div>
+                                <span data-ar="المجد" data-en="Al-Majd">المجد</span>
+                            </div>
+                            <div class="match-score upcoming-score">
+                                <span data-ar="قريباً" data-en="Soon">قريباً</span>
+                            </div>
+                            <div class="match-team">
+                                <span data-ar="الأنصار" data-en="Al-Ansar">الأنصار</span>
+                                <div class="team-color" style="background:#5FAD41"></div>
+                            </div>
+                        </div>
+                        <div class="match-status upcoming-status" data-ar="لم تبدأ" data-en="Upcoming">لم تبدأ</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Day 3 Matches -->
+            <div class="match-day" id="matchDay3">
+                <div class="matches-grid">
+                    <div class="match-card upcoming">
+                        <div class="match-group-tag group-a">A</div>
+                        <div class="match-date"><i class="fas fa-calendar-alt"></i> <span data-ar="7 رمضان"
+                                data-en="7 Ramadan">7 رمضان</span></div>
+                        <div class="match-teams">
+                            <div class="match-team">
+                                <div class="team-color" style="background:#E8732A"></div>
+                                <span data-ar="الأهلي" data-en="Al-Ahli">الأهلي</span>
+                            </div>
+                            <div class="match-score upcoming-score">
+                                <span data-ar="قريباً" data-en="Soon">قريباً</span>
+                            </div>
+                            <div class="match-team">
+                                <span data-ar="الوحدة" data-en="Al-Wehda">الوحدة</span>
+                                <div class="team-color" style="background:#D4247B"></div>
+                            </div>
+                        </div>
+                        <div class="match-status upcoming-status" data-ar="لم تبدأ" data-en="Upcoming">لم تبدأ</div>
+                    </div>
+                    <div class="match-card upcoming">
+                        <div class="match-group-tag group-a">A</div>
+                        <div class="match-date"><i class="fas fa-calendar-alt"></i> <span data-ar="7 رمضان"
+                                data-en="7 Ramadan">7 رمضان</span></div>
+                        <div class="match-teams">
+                            <div class="match-team">
+                                <div class="team-color" style="background:#5FAD41"></div>
+                                <span data-ar="الشباب" data-en="Al-Shabab">الشباب</span>
+                            </div>
+                            <div class="match-score upcoming-score">
+                                <span data-ar="قريباً" data-en="Soon">قريباً</span>
+                            </div>
+                            <div class="match-team">
+                                <span data-ar="النصر" data-en="Al-Nasr">النصر</span>
+                                <div class="team-color" style="background:#FFD700"></div>
+                            </div>
+                        </div>
+                        <div class="match-status upcoming-status" data-ar="لم تبدأ" data-en="Upcoming">لم تبدأ</div>
+                    </div>
+                    <div class="match-card upcoming">
+                        <div class="match-group-tag group-b">B</div>
+                        <div class="match-date"><i class="fas fa-calendar-alt"></i> <span data-ar="8 رمضان"
+                                data-en="8 Ramadan">8 رمضان</span></div>
+                        <div class="match-teams">
+                            <div class="match-team">
+                                <div class="team-color" style="background:#1B2A6B"></div>
+                                <span data-ar="الحسين" data-en="Al-Hussein">الحسين</span>
+                            </div>
+                            <div class="match-score upcoming-score">
+                                <span data-ar="قريباً" data-en="Soon">قريباً</span>
+                            </div>
+                            <div class="match-team">
+                                <span data-ar="الاتحاد" data-en="Al-Ittihad">الاتحاد</span>
+                                <div class="team-color" style="background:#7CC5E8"></div>
+                            </div>
+                        </div>
+                        <div class="match-status upcoming-status" data-ar="لم تبدأ" data-en="Upcoming">لم تبدأ</div>
+                    </div>
+                    <div class="match-card upcoming">
+                        <div class="match-group-tag group-c">C</div>
+                        <div class="match-date"><i class="fas fa-calendar-alt"></i> <span data-ar="8 رمضان"
+                                data-en="8 Ramadan">8 رمضان</span></div>
+                        <div class="match-teams">
+                            <div class="match-team">
+                                <div class="team-color" style="background:#D4247B"></div>
+                                <span data-ar="البرق" data-en="Al-Barq">البرق</span>
+                            </div>
+                            <div class="match-score upcoming-score">
+                                <span data-ar="قريباً" data-en="Soon">قريباً</span>
+                            </div>
+                            <div class="match-team">
+                                <span data-ar="الفجر" data-en="Al-Fajr">الفجر</span>
+                                <div class="team-color" style="background:#1B2A6B"></div>
+                            </div>
+                        </div>
+                        <div class="match-status upcoming-status" data-ar="لم تبدأ" data-en="Upcoming">لم تبدأ</div>
+                    </div>
+                    <div class="match-card upcoming">
+                        <div class="match-group-tag group-d">D</div>
+                        <div class="match-date"><i class="fas fa-calendar-alt"></i> <span data-ar="9 رمضان"
+                                data-en="9 Ramadan">9 رمضان</span></div>
+                        <div class="match-teams">
+                            <div class="match-team">
+                                <div class="team-color" style="background:#5FAD41"></div>
+                                <span data-ar="الأنصار" data-en="Al-Ansar">الأنصار</span>
+                            </div>
+                            <div class="match-score upcoming-score">
+                                <span data-ar="قريباً" data-en="Soon">قريباً</span>
+                            </div>
+                            <div class="match-team">
+                                <span data-ar="القادسية" data-en="Al-Qadisiya">القادسية</span>
+                                <div class="team-color" style="background:#D4247B"></div>
+                            </div>
+                        </div>
+                        <div class="match-status upcoming-status" data-ar="لم تبدأ" data-en="Upcoming">لم تبدأ</div>
+                    </div>
+                    <div class="match-card upcoming">
+                        <div class="match-group-tag group-d">D</div>
+                        <div class="match-date"><i class="fas fa-calendar-alt"></i> <span data-ar="9 رمضان"
+                                data-en="9 Ramadan">9 رمضان</span></div>
+                        <div class="match-teams">
+                            <div class="match-team">
+                                <div class="team-color" style="background:#E8732A"></div>
+                                <span data-ar="المجد" data-en="Al-Majd">المجد</span>
+                            </div>
+                            <div class="match-score upcoming-score">
+                                <span data-ar="قريباً" data-en="Soon">قريباً</span>
+                            </div>
+                            <div class="match-team">
+                                <span data-ar="الأبطال" data-en="Al-Abtal">الأبطال</span>
+                                <div class="team-color" style="background:#FFD700"></div>
+                            </div>
+                        </div>
+                        <div class="match-status upcoming-status" data-ar="لم تبدأ" data-en="Upcoming">لم تبدأ</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Knockout Matches -->
+            <div class="match-day" id="matchDayKnockout">
+                <div class="matches-grid">
+                    <div class="match-card upcoming">
+                        <div class="match-round-tag" data-ar="ربع النهائي" data-en="Quarter Final">ربع النهائي</div>
+                        <div class="match-date">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span data-ar="السبت، 12 رمضان" data-en="Saturday, 12 Ramadan">السبت، 12 رمضان</span>
+                            <span class="match-time" style="margin-inline-start: 10px;">
+                                <i class="far fa-clock"></i> 10:00 PM
+                            </span>
+                        </div>
+                        <div class="match-teams">
+                            <div class="match-team">
+                                <div class="team-color" style="background:#E8732A"></div>
+                                <span data-ar="الأهلي" data-en="Al-Ahli">الأهلي</span>
+                            </div>
+                            <div class="match-score upcoming-score">
+                                <span data-ar="قريباً" data-en="Soon">قريباً</span>
+                            </div>
+                            <div class="match-team">
+                                <span data-ar="الأنصار" data-en="Al-Ansar">الأنصار</span>
+                                <div class="team-color" style="background:#5FAD41"></div>
+                            </div>
+                        </div>
+                        <div class="match-status upcoming-status" data-ar="لم تبدأ" data-en="Upcoming">لم تبدأ</div>
+                    </div>
+                    <div class="match-card upcoming">
+                        <div class="match-round-tag" data-ar="ربع النهائي" data-en="Quarter Final">ربع النهائي</div>
+                        <div class="match-date">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span data-ar="السبت، 12 رمضان" data-en="Saturday, 12 Ramadan">السبت، 12 رمضان</span>
+                            <span class="match-time" style="margin-inline-start: 10px;">
+                                <i class="far fa-clock"></i> 11:30 PM
+                            </span>
+                        </div>
+                        <div class="match-teams">
+                            <div class="match-team">
+                                <div class="team-color" style="background:#1B2A6B"></div>
+                                <span data-ar="الحسين" data-en="Al-Hussein">الحسين</span>
+                            </div>
+                            <div class="match-score upcoming-score">
+                                <span data-ar="قريباً" data-en="Soon">قريباً</span>
+                            </div>
+                            <div class="match-team">
+                                <span data-ar="البرق" data-en="Al-Barq">البرق</span>
+                                <div class="team-color" style="background:#D4247B"></div>
+                            </div>
+                        </div>
+                        <div class="match-status upcoming-status" data-ar="لم تبدأ" data-en="Upcoming">لم تبدأ</div>
+                    </div>
+                    <div class="match-card upcoming">
+                        <div class="match-round-tag" data-ar="ربع النهائي" data-en="Quarter Final">ربع النهائي</div>
+                        <div class="match-date">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span data-ar="الأحد، 13 رمضان" data-en="Sunday, 13 Ramadan">الأحد، 13 رمضان</span>
+                            <span class="match-time" style="margin-inline-start: 10px;">
+                                <i class="far fa-clock"></i> 10:00 PM
+                            </span>
+                        </div>
+                        <div class="match-teams">
+                            <div class="match-team">
+                                <div class="team-color" style="background:#5FAD41"></div>
+                                <span data-ar="الشباب" data-en="Al-Shabab">الشباب</span>
+                            </div>
+                            <div class="match-score upcoming-score">
+                                <span data-ar="قريباً" data-en="Soon">قريباً</span>
+                            </div>
+                            <div class="match-team">
+                                <span data-ar="المجد" data-en="Al-Majd">المجد</span>
+                                <div class="team-color" style="background:#E8732A"></div>
+                            </div>
+                        </div>
+                        <div class="match-status upcoming-status" data-ar="لم تبدأ" data-en="Upcoming">لم تبدأ</div>
+                    </div>
+                    <div class="match-card upcoming">
+                        <div class="match-round-tag" data-ar="ربع النهائي" data-en="Quarter Final">ربع النهائي</div>
+                        <div class="match-date">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span data-ar="الأحد، 13 رمضان" data-en="Sunday, 13 Ramadan">الأحد، 13 رمضان</span>
+                            <span class="match-time" style="margin-inline-start: 10px;">
+                                <i class="far fa-clock"></i> 11:30 PM
+                            </span>
+                        </div>
+                        <div class="match-teams">
+                            <div class="match-team">
+                                <div class="team-color" style="background:#7CC5E8"></div>
+                                <span data-ar="الاتحاد" data-en="Al-Ittihad">الاتحاد</span>
+                            </div>
+                            <div class="match-score upcoming-score">
+                                <span data-ar="قريباً" data-en="Soon">قريباً</span>
+                            </div>
+                            <div class="match-team">
+                                <span data-ar="الأوائل" data-en="Al-Awaeil">الأوائل</span>
+                                <div class="team-color" style="background:#FFD700"></div>
+                            </div>
+                        </div>
+                        <div class="match-status upcoming-status" data-ar="لم تبدأ" data-en="Upcoming">لم تبدأ</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TOP SCORERS ===== -->
+    <section class="section scorers" id="scorers">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge" data-ar="الهدافون" data-en="Top Scorers">الهدافون</span>
+                <h2 class="section-title" data-ar="ترتيب الهدافين" data-en="Scoring Leaderboard">ترتيب الهدافين</h2>
+                <p class="section-desc" data-ar="أفضل الهدافين في البطولة الرمضانية"
+                    data-en="Top goal scorers in the Ramadan tournament">أفضل الهدافين في البطولة الرمضانية</p>
+            </div>
+
+            <div class="scorers-podium">
+                <!-- 2nd place -->
+                <div class="podium-item second" data-aos="fade-up" data-aos-delay="100">
+                    <div class="podium-avatar">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="podium-medal">🥈</div>
+                    <h4 data-ar="أحمد الخطيب" data-en="Ahmad Al-Khatib">أحمد الخطيب</h4>
+                    <span class="podium-team" data-ar="فريق الحسين" data-en="Al-Hussein FC">فريق الحسين</span>
+                    <div class="podium-goals">
+                        <span class="goals-number">8</span>
+                        <span data-ar="أهداف" data-en="Goals">أهداف</span>
+                    </div>
+                    <div class="podium-bar bar-2"></div>
+                </div>
+
+                <!-- 1st place -->
+                <div class="podium-item first" data-aos="fade-up">
+                    <div class="podium-crown"><i class="fas fa-crown"></i></div>
+                    <div class="podium-avatar gold">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="podium-medal">🥇</div>
+                    <h4 data-ar="محمد العمري" data-en="Mohammad Al-Omari">محمد العمري</h4>
+                    <span class="podium-team" data-ar="فريق الأهلي" data-en="Al-Ahli FC">فريق الأهلي</span>
+                    <div class="podium-goals">
+                        <span class="goals-number">12</span>
+                        <span data-ar="أهداف" data-en="Goals">أهداف</span>
+                    </div>
+                    <div class="podium-bar bar-1"></div>
+                </div>
+
+                <!-- 3rd place -->
+                <div class="podium-item third" data-aos="fade-up" data-aos-delay="200">
+                    <div class="podium-avatar">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="podium-medal">🥉</div>
+                    <h4 data-ar="خالد الزعبي" data-en="Khaled Al-Zoubi">خالد الزعبي</h4>
+                    <span class="podium-team" data-ar="فريق الأوائل" data-en="Al-Awaeil FC">فريق الأوائل</span>
+                    <div class="podium-goals">
+                        <span class="goals-number">6</span>
+                        <span data-ar="أهداف" data-en="Goals">أهداف</span>
+                    </div>
+                    <div class="podium-bar bar-3"></div>
+                </div>
+            </div>
+
+            <div class="scorers-table-wrapper">
+                <table class="scorers-table">
+                    <thead>
+                        <tr>
+                            <th data-ar="#" data-en="#">#</th>
+                            <th data-ar="اللاعب" data-en="Player">اللاعب</th>
+                            <th data-ar="الفريق" data-en="Team">الفريق</th>
+                            <th data-ar="الأهداف" data-en="Goals">الأهداف</th>
+                            <th data-ar="المباريات" data-en="Matches">المباريات</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>4</td>
+                            <td data-ar="عمر المصري" data-en="Omar Al-Masri">عمر المصري</td>
+                            <td data-ar="فريق الشباب" data-en="Al-Shabab FC">فريق الشباب</td>
+                            <td><span class="goal-badge">5</span></td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td data-ar="يزن الحوراني" data-en="Yazan Al-Hourani">يزن الحوراني</td>
+                            <td data-ar="فريق النجوم" data-en="Al-Nujoom FC">فريق النجوم</td>
+                            <td><span class="goal-badge">5</span></td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td data-ar="سامر القضاة" data-en="Samer Al-Qudah">سامر القضاة</td>
+                            <td data-ar="فريق المجد" data-en="Al-Majd FC">فريق المجد</td>
+                            <td><span class="goal-badge">4</span></td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td data-ar="فادي الطراونة" data-en="Fadi Al-Tarawneh">فادي الطراونة</td>
+                            <td data-ar="فريق الصقور" data-en="Al-Suqour FC">فريق الصقور</td>
+                            <td><span class="goal-badge">4</span></td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td data-ar="ناصر البطاينة" data-en="Naser Al-Batayneh">ناصر البطاينة</td>
+                            <td data-ar="فريق الاتحاد" data-en="Al-Ittihad FC">فريق الاتحاد</td>
+                            <td><span class="goal-badge">3</span></td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td data-ar="رامي أبو زيد" data-en="Rami Abu Zeid">رامي أبو زيد</td>
+                            <td data-ar="فريق البرق" data-en="Al-Barq FC">فريق البرق</td>
+                            <td><span class="goal-badge">3</span></td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td data-ar="معاذ الشرفات" data-en="Muath Al-Sharafat">معاذ الشرفات</td>
+                            <td data-ar="فريق الأنصار" data-en="Al-Ansar FC">فريق الأنصار</td>
+                            <td><span class="goal-badge">3</span></td>
+                            <td>5</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ALBUM SECTION ===== -->
+    <section class="section album" id="album">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge" data-ar="الألبوم" data-en="Album">الألبوم</span>
+                <h2 class="section-title" data-ar="لحظات من البطولة" data-en="Tournament Moments">لحظات من البطولة</h2>
+                <p class="section-desc" data-ar="أجمل اللحظات والذكريات من بطولة ملتقى شباب إربد الرمضانية"
+                    data-en="The best moments and memories from the Irbid Youth Forum Ramadan Tournament">أجمل اللحظات
+                    والذكريات من بطولة ملتقى شباب إربد الرمضانية</p>
+            </div>
+
+            <div class="album-grid">
+                <div class="album-item large" data-aos="fade-up" onclick="openLightbox(this)">
+                    <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=800&q=80"
+                        alt="مباراة كرة قدم" loading="lazy">
+                    <div class="album-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span data-ar="افتتاح البطولة" data-en="Tournament Opening">افتتاح البطولة</span>
+                    </div>
+                </div>
+                <div class="album-item" data-aos="fade-up" data-aos-delay="50" onclick="openLightbox(this)">
+                    <img src="https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=600&q=80" alt="لاعبين"
+                        loading="lazy">
+                    <div class="album-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span data-ar="مباراة قوية" data-en="Intense Match">مباراة قوية</span>
+                    </div>
+                </div>
+                <div class="album-item" data-aos="fade-up" data-aos-delay="100" onclick="openLightbox(this)">
+                    <img src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?w=600&q=80" alt="تشجيع"
+                        loading="lazy">
+                    <div class="album-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span data-ar="جماهير حماسية" data-en="Excited Fans">جماهير حماسية</span>
+                    </div>
+                </div>
+                <div class="album-item" data-aos="fade-up" data-aos-delay="150" onclick="openLightbox(this)">
+                    <img src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=600&q=80" alt="احتفال"
+                        loading="lazy">
+                    <div class="album-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span data-ar="فرحة الفوز" data-en="Victory Joy">فرحة الفوز</span>
+                    </div>
+                </div>
+                <div class="album-item tall" data-aos="fade-up" data-aos-delay="200" onclick="openLightbox(this)">
+                    <img src="https://images.unsplash.com/photo-1553778263-73a83bab9b0c?w=600&q=80" alt="كأس"
+                        loading="lazy">
+                    <div class="album-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span data-ar="الكأس الذهبي" data-en="Golden Trophy">الكأس الذهبي</span>
+                    </div>
+                </div>
+                <div class="album-item" data-aos="fade-up" data-aos-delay="250" onclick="openLightbox(this)">
+                    <img src="https://images.unsplash.com/photo-1459865264687-595d652de67e?w=600&q=80" alt="ملعب"
+                        loading="lazy">
+                    <div class="album-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span data-ar="أرض الملعب" data-en="The Pitch">أرض الملعب</span>
+                    </div>
+                </div>
+                <div class="album-item wide" data-aos="fade-up" data-aos-delay="300" onclick="openLightbox(this)">
+                    <img src="https://images.unsplash.com/photo-1560272564-c83b66b1ad12?w=800&q=80" alt="فريق"
+                        loading="lazy">
+                    <div class="album-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span data-ar="صورة جماعية" data-en="Team Photo">صورة جماعية</span>
+                    </div>
+                </div>
+                <div class="album-item" data-aos="fade-up" data-aos-delay="350" onclick="openLightbox(this)">
+                    <img src="https://images.unsplash.com/photo-1551958219-acbc608c6377?w=600&q=80" alt="هدف"
+                        loading="lazy">
+                    <div class="album-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span data-ar="لحظة التسجيل" data-en="Goal Moment">لحظة التسجيل</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== COMMITTEE & REFEREE SECTION ===== -->
+    <section class="section committee" id="committee">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge" data-ar="اللجنة والتحكيم" data-en="Committee & Referee">اللجنة
+                    والتحكيم</span>
+                <h2 class="section-title" data-ar="اللجنة المنظمة والتحكيم" data-en="Organizing Committee & Referee">
+                    اللجنة المنظمة والتحكيم</h2>
+            </div>
+
+            <div class="committee-grid">
+                <!-- Referee -->
+                <div class="committee-card referee-card" data-aos="fade-up">
+                    <div class="committee-icon">
+                        <i class="fas fa-gavel"></i>
+                    </div>
+                    <div class="committee-info">
+                        <span class="committee-role" data-ar="حكم البطولة" data-en="Tournament Referee">حكم
+                            البطولة</span>
+                        <h4 class="committee-name" data-ar="د. عماد جرادات" data-en="Dr. Emad Jaradat">د. عماد جرادات
+                        </h4>
+                    </div>
+                </div>
+
+                <!-- Committee Members -->
+                <div class="committee-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="committee-icon">
+                        <i class="fas fa-users-gear"></i>
+                    </div>
+                    <div class="committee-info">
+                        <span class="committee-role" data-ar="اللجنة المنظمة" data-en="Organizing Committee">اللجنة
+                            المنظمة</span>
+                        <h4 class="committee-name" data-ar="السيد كميل السكران" data-en="Mr. Kamil Al-Sakran">السيد كميل
+                            السكران</h4>
+                    </div>
+                </div>
+
+                <div class="committee-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="committee-icon">
+                        <i class="fas fa-users-gear"></i>
+                    </div>
+                    <div class="committee-info">
+                        <span class="committee-role" data-ar="اللجنة المنظمة" data-en="Organizing Committee">اللجنة
+                            المنظمة</span>
+                        <h4 class="committee-name" data-ar="السيد نعيم أبو شقير" data-en="Mr. Naim Abu Shuqair">السيد
+                            نعيم أبو شقير</h4>
+                    </div>
+                </div>
+
+                <div class="committee-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="committee-icon">
+                        <i class="fas fa-users-gear"></i>
+                    </div>
+                    <div class="committee-info">
+                        <span class="committee-role" data-ar="اللجنة المنظمة" data-en="Organizing Committee">اللجنة
+                            المنظمة</span>
+                        <h4 class="committee-name" data-ar="باسيل الزبيدي" data-en="Basil Al-Zubaidi">باسيل الزبيدي</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="footer-wave">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100" preserveAspectRatio="none">
+                <path d="M0,40 C360,100 1080,0 1440,60 L1440,100 L0,100 Z"></path>
+            </svg>
+        </div>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="assets/logo.png" alt="شعار ملتقى شباب إربد" class="footer-logo-img">
+                <h3 data-ar="ملتقى شباب تميّز إربد" data-en="Irbid Youth Excellence Forum">ملتقى شباب تميّز إربد</h3>
+                <p data-ar="البطولة الرمضانية لكرة القدم" data-en="Ramadan Football Championship">البطولة الرمضانية لكرة
+                    القدم</p>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.facebook.com/profile.php?id=61580728485101&rdid=ZVjZ7cyDEMpVA9lV&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1DZEpPVHPq%2F%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio"
+                    class="social-link" aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/eyf.irbid/" class="social-link" aria-label="Instagram"
+                    target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="footer-bottom">
+                <p data-ar="© 2026 ملتقى شباب تميّز إربد. جميع الحقوق محفوظة"
+                    data-en="© 2026 Irbid Youth Excellence Forum. All rights reserved">© 2026 ملتقى شباب تميّز إربد.
+                    جميع الحقوق محفوظة</p>
+                <div class="developer-branding">
+                    <span data-ar="تم التطوير بواسطة" data-en="Developed by">تم التطوير بواسطة</span>
+                    <a href="https://my-markt3-5ag6o.sevalla.page/" target="_blank" class="webfinity-link">
+                        <img src="assets/webfinty.png" alt="WebFinity Logo" class="webfinity-logo">
+                        <span class="webfinity-text">WebFinity</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== LIGHTBOX MODAL ===== -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" onclick="closeLightbox()" aria-label="Close">
+            <i class="fas fa-times"></i>
+        </button>
+        <button class="lightbox-nav lightbox-prev" onclick="navigateLightbox(-1)" aria-label="Previous">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+        <button class="lightbox-nav lightbox-next" onclick="navigateLightbox(1)" aria-label="Next">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="lightbox-content">
+            <img src="" alt="" id="lightboxImg">
+            <p class="lightbox-caption" id="lightboxCaption"></p>
+        </div>
+    </div>
+
+    <!-- ===== SCROLL TO TOP ===== -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
